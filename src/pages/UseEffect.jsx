@@ -9,9 +9,9 @@ export default function UseEffect() {
         console.log("API called");
         setcount(count + 1);
     }
-    useEffect(() => {
-        callApi();
-    }, [name]);
+    // useEffect(() => {
+    //     callApi();
+    // }, [name]);
     return (
         <>
             <Test />
