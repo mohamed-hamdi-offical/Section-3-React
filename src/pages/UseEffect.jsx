@@ -5,10 +5,10 @@ export default function UseEffect() {
     const [count, setcount] = React.useState(0);
     const [name, setName] = React.useState("Mohamed");
 
-    function callApi() {
-        console.log("API called");
-        setcount(count + 1);
-    }
+    // function callApi() {
+    //     console.log("API called");
+    //     setcount(count + 1);
+    // }
     // useEffect(() => {
     //     callApi();
     // }, [name]);
