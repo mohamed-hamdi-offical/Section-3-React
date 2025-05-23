@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+* {
+   
+ 
+   
+    font-family: "Instrument Sans", sans-serif;
+}
+.container{
+padding-inline: 4.68em;
+
+
+}
+body{
+    background-color: #F1F1FF;
+/* padding: 0;
+margin: 0; */
+box-sizing: border-box;
+}
